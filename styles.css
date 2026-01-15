@@ -1,1 +1,73 @@
 /*  your css code here. If applicable */
+:root {
+background-color: rgb(135, 206, 235);
+}
+
+
+body {
+margin: 0;
+padding: 24px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+article {
+margin-bottom: 24px;
+padding: 16px;
+background: rgba(255,255,255,0.6);
+border-radius: 8px;
+}
+
+
+/* Article paragraphs styling */
+article p:first-child {
+color: white;
+background-color: black;
+padding: 8px;
+}
+
+
+article p:nth-child(2) {
+color: inherit; /* standard text color */
+}
+
+
+article p:last-child {
+color: red;
+}
+
+
+/* Unordered list styling */
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+
+ul li {
+background-color: gray;
+width: 50%;
+padding: 10px;
+box-sizing: border-box;
+margin-bottom: 6px;
+}
+
+
+/* Every odd item has white background */
+ul li:nth-child(odd) {
+background-color: white;
+}
+
+
+/* First and last items font size */
+ul li:first-child,
+ul li:last-child {
+font-size: 22px;
+}
+
+
+/* Third-to-last item pink background */
+ul li:nth-last-child(3) {
+background-color: pink;
+}
